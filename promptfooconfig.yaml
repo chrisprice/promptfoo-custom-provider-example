@@ -1,0 +1,8 @@
+prompts: [prompts.txt]
+providers:
+  - id: customProvider.mjs
+    config:
+      apiHeaders:
+        Authorization: Bearer BOBBY BOB BOB
+
+tests: vars.csv
